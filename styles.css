@@ -1,0 +1,65 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+main {
+    width: 500px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul li {
+    list-style: square;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+nav{
+    padding: 0 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.enlace-nav {
+    padding: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.enlace-nav:hover {
+    color: black;
+
+}
